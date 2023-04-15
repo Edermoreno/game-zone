@@ -1,0 +1,155 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    
+}
+
+:root{
+    --cor1: #0d47a1;
+    --cor2: #2c2c2c;
+    --cor3: #2c2c2c;
+    --cor4: #172A7F;
+    --cor5: #6e6e6e;
+    --cor6: #070c24;
+     
+}
+
+body{
+    background-color: var(--cor2);
+
+    
+    
+}
+
+header{
+    background-color: var(--cor6);
+    padding: 0px;
+    padding-top: 10px;
+    border-color: white ;
+    
+    
+}
+
+header img{
+    display: block;
+    max-width: 250px;
+    margin: auto;
+}
+
+nav{
+    text-align: left;
+    padding: 2px;
+    background-color: var(--cor6);
+    text-indent: 2em;
+    margin-bottom: 0.8px 0px white;
+    box-shadow: 1px 1px 0px;
+    
+}
+
+nav > a{
+    margin-right: 60px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 1.2em;
+    text-align: center;
+    margin-top: 0.8px white;
+    
+
+}
+
+nav > a:hover{
+    text-decoration: underline;
+    background-image: linear-gradient(to right,transparent, var(--cor1), transparent);
+    border-radius: 5px;
+    padding: 2px 15px;
+    transition-duration: 0.6s;
+    
+}
+
+main{
+    
+    margin: auto;
+    padding: 15px 40px;
+    background-color: var(--cor3)
+    max-width: 100%;
+    min-width: 320px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 0px 
+    
+
+    
+}
+
+main h1{
+    font-size: 2.0em;   
+    text-align: left;
+}
+
+main h2{
+    margin: 5px;
+    padding: 5px;
+    background-image: linear-gradient(to right,transparent, var(--cor1), transparent);
+    text-align: left;
+}
+
+main p{
+    font-size: 1.1em;
+    line-height: 1.3em;
+    margin-top: 6px;
+    
+}
+
+.magnavox {
+    display: block;
+    max-width: 400px;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.spacewar {
+    display: block;
+    max-width: 400px;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.lista-consoles{
+    list-style-position: inside;
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+    padding: 8px;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.lista-portateis{
+    list-style-position: inside;
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+    padding: 8px;
+    
+}
+
+footer{
+    background-color: #070c24;
+    color: white;
+    margin: 1px 0px 10px 0px;
+    padding: 30px;
+    
+    text-align: center;
+}
