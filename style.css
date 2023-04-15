@@ -111,7 +111,7 @@ figure{
 }
 
 .magnavox {
-    display: block;
+    display: flex;
     max-width: 400px;
     min-width: 50px;
     margin: auto;
@@ -120,7 +120,7 @@ figure{
 }
 
 .spacewar {
-    display: block;
+    display: flex;
     max-width: 400px;
     min-width: 50px;
     margin: auto;
