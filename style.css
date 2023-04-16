@@ -21,13 +21,18 @@
 }
 
 body{
+    width: 100%;
     background-color: var(--cor2);
+    margin: auto;
 
     
     
 }
 
 header{
+    width: 100%;
+    display: block;
+    margin: auto;
     background-color: var(--cor6);
     padding: 0px;
     padding-top: 10px;
@@ -38,11 +43,13 @@ header{
 
 header img{
     display: block;
+    width: 100%;
     max-width: 250px;
     margin: auto;
 }
 
 nav{
+    margin: auto;
     text-align: left;
     padding: 2px;
     background-color: var(--cor6);
@@ -112,7 +119,8 @@ figure{
 
 .magnavox {
     display: flex;
-    max-width: 400px;
+    width: 100%;
+    max-width: 200px;
     min-width: 50px;
     margin: auto;
     padding-top: 20px;
@@ -121,7 +129,7 @@ figure{
 
 .spacewar {
     display: flex;
-    max-width: 400px;
+    max-width: 200px;
     min-width: 50px;
     margin: auto;
     padding-top: 20px;
@@ -153,9 +161,11 @@ a:hover{
 }
 
 footer{
+    width: 100%;
+    display: flex;
     background-color: #070c24;
     color: white;
-    margin: 1px 0px 10px 0px;
+    margin: auto;
     padding: 30px;
     
     text-align: center;
