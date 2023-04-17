@@ -5,6 +5,7 @@
 *{
     margin: 0px;
     font-family: 'Open Sans', sans-serif;
+    
    
     
 }
@@ -145,14 +146,28 @@ figure{
     border-radius: 5px;
     padding: 8px;
     line-height: 30px;
+    color: white;
     
+}
+
+.lista-consoles li{
+    text-decoration: none;
+}
+
+.lista-consoles li :hover{
+    text-decoration: underline;
 }
 
 a{
     text-decoration: none;
+    color: inherit;
 }
 
-a:hover{
+a :visited{
+    color: rgb(150, 0, 117);
+}
+
+a :hover{
     text-decoration: underline;
 }
 
@@ -162,6 +177,7 @@ a:hover{
     border-radius: 5px;
     padding: 8px;
     line-height: 30px;
+    text-decoration: none;
     
 }
 
@@ -172,7 +188,7 @@ footer{
     color: white;
     margin: auto;
     padding: 30px;
-    
+
     text-align: center;
 }
 
@@ -249,7 +265,7 @@ footer{
     width: 100%;
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 870px){
     *{
         margin: 0px;
         padding: 0px;
